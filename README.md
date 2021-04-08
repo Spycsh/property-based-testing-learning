@@ -1,4 +1,6 @@
 # property-based-testing-learning
+
+## Install
 ```
 $ rebar3 new lib pbt
 $ cd pbt
@@ -52,3 +54,13 @@ prop_biggest() ->
 ```
 
 Of course we should not use lists:last and lists:sort anymore in implementation of the function biggest/1
+
+? [https://erlang.org/doc/apps/common_test/basics_chapter.html]
+
+## Customize generators
+
+## State Machine
+
+## Shrinking
+
+## OTP (in real use)
